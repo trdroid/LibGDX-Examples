@@ -42,6 +42,10 @@ The JAVA_HOME path variable is pointing to Java 8 SDK, but the java command on t
     OpenJDK 64-Bit Server VM (build 24.95-b01, mixed mode)
     droid@droidserver:~/software$ which java
     /usr/bin/java
+    droid@droidserver:~/software$ ls -l /usr/bin/java
+    lrwxrwxrwx 1 root root 22 Feb 13 14:52 /usr/bin/java -> /etc/alternatives/java
+    droid@droidserver:~/software$ ls -l /etc/alternatives/java
+    lrwxrwxrwx 1 root root 46 Feb 13 14:52 /etc/alternatives/java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java
     droid@droidserver:~/software$ echo $JAVA_HOME
     /home/droid/software/java/jdk1.8.0_65
     droid@droidserver:~/software$ cd $JAVA_HOME
