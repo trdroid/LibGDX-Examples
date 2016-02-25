@@ -125,3 +125,19 @@ Click "Build Model"
 Choose the generated folders and click finish
 
 <img src="_misc/After%20Project%20is%20Built.png"/>
+
+### Project Structure and Contents
+
+<img src="_misc/Project%20Structure.png"/>
+
+<img src="_misc/Project%20structure%20-%20android.png"/>
+
+<img src="_misc/Project%20Structure%20-%20Core.png"/>
+
+<img src="_misc/Project%20Structure%20-%20Desktop.png"/>
+
+<img src="_misc/Project%20Structure%20-%20Html.png"/>
+
+<img src="_misc/Project%20Structure%20-%20iOS.png"/>
+
+<img src="_misc/Project%20Structure%20-%20Sample.png"/>
