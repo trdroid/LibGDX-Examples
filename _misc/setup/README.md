@@ -56,7 +56,7 @@ The JAVA_HOME path variable is pointing to Java 8 SDK, but the java command on t
     Java(TM) SE Runtime Environment (build 1.8.0_65-b17)
     Java HotSpot(TM) 64-Bit Server VM (build 25.65-b01, mixed mode)
 
-Using Java version 1.8, opens up the LibGDX's project generation view.
+Using Java version 1.8, opens up the LibGDX's project creation wizard.
 
     droid@droidserver:~/software$ /home/droid/software/java/jdk1.8.0_65/bin/java -jar gdx-setup.jar 
     Usage: GdxSetup --dir <dir-name> --name <app-name> --package <package> --mainClass <mainClass> --sdkLocation <SDKLocation>
