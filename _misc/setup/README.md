@@ -84,3 +84,7 @@ Using Java version 1.8 opens up the LibGDX's project creation wizard.
     Java(TM) SE Runtime Environment (build 1.8.0_65-b17)
     Java HotSpot(TM) 64-Bit Server VM (build 25.65-b01, mixed mode)
 
+Now, the java command can be used directly without having to specify the whole path. The following opens up the Project Creation Wizard.
+
+> software/LibGDX$ java -jar gdx-setup.jar 
+
