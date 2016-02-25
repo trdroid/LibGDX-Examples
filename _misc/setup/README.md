@@ -92,6 +92,14 @@ Now, the java command can be used directly without having to specify the whole p
 
 <img src="_misc/Create%20a%20sample%20project.png"/>
 
+Click Generate and wait ...
+
+<img src="_misc/After%20Project%20Creation.png"/>
+
+<b> Files Generated </b>
+
 > scratchpad/LibGDX$ ls Sample/
 
     android  build.gradle  core  desktop  gradle  gradle.properties  gradlew  gradlew.bat  html  ios  local.properties  settings.gradle
+
+
