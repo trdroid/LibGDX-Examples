@@ -92,7 +92,7 @@ Now, the java command can be used directly without having to specify the whole p
 
 > software/LibGDX$ java -jar gdx-setup.jar 
 
-### Creating a Project
+### Creating a Project to be imported in Eclipse
 
 <img src="_misc/Create%20a%20sample%20project.png"/>
 
@@ -110,4 +110,18 @@ Click Generate and wait ...
 
     android  build.gradle  core  desktop  gradle  gradle.properties  gradlew  gradlew.bat  html  ios  local.properties  settings.gradle
 
+### Import Project to Eclipse
 
+<b> Import the project to eclipse </b>
+
+<img src="_misc/Import%20a%20Gradle%20Project.png"/>
+
+<b> Build the Project </b>
+
+Click "Build Model"
+
+<img src="_misc/Build%20Model.png"/>
+
+Choose the generated folders and click finish
+
+<img src="_misc/After%20Project%20is%20Built.png"/>
