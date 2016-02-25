@@ -17,7 +17,7 @@ Download gdx-setup.jar (https://libgdx.badlogicgames.com/download.html)
 
 Downloaded to ~/software/libGDX directory
 
-> software/libGDX$ java -jar gdx-setup.jar
+> software//LibGDX$ java -jar gdx-setup.jar
 
     Exception in thread "main" java.awt.HeadlessException
     	at java.awt.GraphicsEnvironment.checkHeadless(GraphicsEnvironment.java:207)
@@ -36,19 +36,19 @@ The JAVA_HOME path variable is pointing to Java 8 SDK, but the java command on t
     java version "1.7.0_95"
     OpenJDK Runtime Environment (IcedTea 2.6.4) (7u95-2.6.4-0ubuntu0.14.04.1)
     OpenJDK 64-Bit Server VM (build 24.95-b01, mixed mode)
-    droid@droidserver:~/software$ java -version 
+    droid@droidserver:~/software/LibGDX$ java -version 
     java version "1.7.0_95"
     OpenJDK Runtime Environment (IcedTea 2.6.4) (7u95-2.6.4-0ubuntu0.14.04.1)
     OpenJDK 64-Bit Server VM (build 24.95-b01, mixed mode)
-    droid@droidserver:~/software$ which java
+    droid@droidserver:~/software/LibGDX$ which java
     /usr/bin/java
-    droid@droidserver:~/software$ ls -l /usr/bin/java
+    droid@droidserver:~/software/LibGDX$ ls -l /usr/bin/java
     lrwxrwxrwx 1 root root 22 Feb 13 14:52 /usr/bin/java -> /etc/alternatives/java
-    droid@droidserver:~/software$ ls -l /etc/alternatives/java
+    droid@droidserver:~/software/LibGDX$ ls -l /etc/alternatives/java
     lrwxrwxrwx 1 root root 46 Feb 13 14:52 /etc/alternatives/java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java
-    droid@droidserver:~/software$ echo $JAVA_HOME
+    droid@droidserver:~/software/LibGDX$ echo $JAVA_HOME
     /home/droid/software/java/jdk1.8.0_65
-    droid@droidserver:~/software$ cd $JAVA_HOME
+    droid@droidserver:~/software/LibGDX$ cd $JAVA_HOME
     droid@droidserver:~/software/java/jdk1.8.0_65$ ls
     bin        db     include         jre  LICENSE  README.html  src.zip                             THIRDPARTYLICENSEREADME.txt
     COPYRIGHT  demos  javafx-src.zip  lib  man      release      THIRDPARTYLICENSEREADME-JAVAFX.txt
@@ -62,7 +62,7 @@ The JAVA_HOME path variable is pointing to Java 8 SDK, but the java command on t
 
 Using Java version 1.8 opens up the LibGDX's project creation wizard.
 
-    droid@droidserver:~/software$ /home/droid/software/java/jdk1.8.0_65/bin/java -jar gdx-setup.jar 
+    droid@droidserver:~/software/LibGDX$ /home/droid/software/java/jdk1.8.0_65/bin/java -jar gdx-setup.jar 
     Usage: GdxSetup --dir <dir-name> --name <app-name> --package <package> --mainClass <mainClass> --sdkLocation <SDKLocation>
     dir ... the directory to write the project files to
     name ... the name of the application
@@ -74,12 +74,12 @@ Using Java version 1.8 opens up the LibGDX's project creation wizard.
 
 ### Pointing to Java 8
 
-    droid@droidserver:~/software$ sudo update-alternatives --install "/usr/bin/java" "java" "/home/droid/software/java/jdk1.8.0_65/bin/java" 1
-    droid@droidserver:~/software$ sudo update-alternatives --remove "java" "/usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java"
+    droid@droidserver:~/software/LibGDX$ sudo update-alternatives --install "/usr/bin/java" "java" "/home/droid/software/java/jdk1.8.0_65/bin/java" 1
+    droid@droidserver:~/software/LibGDX$ sudo update-alternatives --remove "java" "/usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java"
     update-alternatives: using /home/droid/software/java/jdk1.8.0_65/bin/java to provide /usr/bin/java (java) in auto mode
-    droid@droidserver:~/software$ which java
+    droid@droidserver:~/software/LibGDX$ which java
     /usr/bin/java
-    droid@droidserver:~/software$ java -version
+    droid@droidserver:~/software/LibGDX$ java -version
     java version "1.8.0_65"
     Java(TM) SE Runtime Environment (build 1.8.0_65-b17)
     Java HotSpot(TM) 64-Bit Server VM (build 25.65-b01, mixed mode)
