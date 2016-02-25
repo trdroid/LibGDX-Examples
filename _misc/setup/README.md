@@ -96,6 +96,10 @@ Now, the java command can be used directly without having to specify the whole p
 
 <img src="_misc/Create%20a%20sample%20project.png"/>
 
+Click Advanced, Select Eclipse and Hit Save
+
+<img src="_misc/Select%20Eclipse.png"/>
+
 Click Generate and wait ...
 
 <img src="_misc/After%20Project%20Creation.png"/>
