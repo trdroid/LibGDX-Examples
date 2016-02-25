@@ -9,7 +9,11 @@ https://github.com/libgdx/libgdx/wiki
 * Eclipse Gradle plugin
 * RoboVM Plugin (for iOS)
 
-### Creating a project
+### Setting up the Development Environment
+
+https://github.com/libgdx/libgdx/wiki/Setting-up-your-Development-Environment-%28Eclipse%2C-Intellij-IDEA%2C-NetBeans%29
+
+### Creating a project Using the Gradle-based setup
 
 https://github.com/libgdx/libgdx/wiki/Project-Setup-Gradle
 
