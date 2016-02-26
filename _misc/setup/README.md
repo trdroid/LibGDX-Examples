@@ -141,3 +141,6 @@ Choose the generated folders and click finish
 <img src="_misc/Project%20Structure%20-%20iOS.png"/>
 
 <img src="_misc/Project%20Structure%20-%20Sample.png"/>
+
+### Understanding Contents
+
